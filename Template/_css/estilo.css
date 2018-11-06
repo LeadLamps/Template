@@ -1,0 +1,115 @@
+@charset "UTF-8";
+body{
+	height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+/*-----Menu Lateral ---- */
+aside{
+	position:absolute;
+	background-color: gray;
+	margin:-8px;
+	top:-10px;
+	width: 187px;
+	height:100%;
+	border-right:4px solid;
+	box-shadow:4px 4px 4px rgba(0,0,0,.4);
+
+}
+aside nav#menu{
+  position: relative;
+  top:20vh;
+  
+}
+aside nav#menu h1 {
+	display:none;
+}
+aside nav#menu h2 {
+	
+	margin-top:9px ;
+	background-color:black;
+	font-size:15px;
+	border-top:3px solid;
+	border-bottom:3px solid;
+	text-align: center;
+	color:white;
+}
+aside nav#menu ul {
+	margin-left:-40px;
+	list-style-type: none;
+	padding:-10px;
+}
+aside nav#menu li {
+	margin-left:52px;
+	background-color:#babbbc;
+	padding-right:10pt;
+	text-align: right;
+	border:0px solid;
+	width:130px;
+	padding:-10px;
+	box-shadow: 1px -2px 10px rgba(0,0,0,.8);
+}
+aside nav#menu li:hover{
+	display:block;
+	background-color:#484d51;
+	font-size:12.2pt;
+	color:white;
+}
+/* ----CABECALHO ---- */
+header div#cima{
+	position:relative;
+	left:187px;
+	margin:-10px auto 30px -10px;
+    padding:10px 10px;
+	border: 1px solid;
+	background-color:#292b2d;
+	color:white;
+	height:60px;
+	
+}
+header div#cima h1{
+	font-size:22pt;
+}
+/*-------CONTEUDO-----*/
+section div#txt-cima{
+	position:relative;
+	left:188px;
+	margin:20px 10px;
+	font-size:20pt;
+}
+div#conteudo{
+	position:relative;
+	left:188px;
+}
+/*-------Rodape-----*/
+footer{
+	    display: block;
+		width:100%;
+}
+
+footer div#rodape{
+	
+	border:.5px solid;
+	margin:0px;
+	background-color:black;
+	color:white;
+	bottom:0px;
+    position: fixed;
+	left: 0;
+	text-align:center;
+	width:100%;
+}
+footer div#rodape h1{
+	font-size:9pt;
+	margin:-2px;
+	  padding: 5px;
+	
+}
+
+
+	
+
+
+	
